@@ -46,8 +46,7 @@ export default function Orders() {
                 </div>
                 <div className="content">
                   <p className="title">
-                    {prototype.title} x {order.quantity}
-                  </p>
+                    {prototype.title} x {x
                 </div>
                 <div className="action">
                   <p className="price">$ {prototype.price * order.quantity}</p>
